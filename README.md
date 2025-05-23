@@ -42,6 +42,12 @@ To use with Apify:
 3. Configure input parameters as needed
 4. Run the actor to extract data for all postal codes
 
+### Important: Actor Naming
+The actor name must follow Apify's naming rules:
+- Only letters (a-z), numbers (0-9), and hyphens (-)
+- Hyphens can only be in the middle of the string
+- The actor is configured as "econtrol-extractor" (not "econtrol_extractor")
+
 ## Configuration
 
 The actor accepts these input parameters:
