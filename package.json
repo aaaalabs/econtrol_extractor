@@ -1,0 +1,17 @@
+{
+  "name": "econtrol-extractor",
+  "version": "1.0.0",
+  "description": "Apify actor for extracting E-Control data using Austrian postal codes",
+  "main": "apify_actor.js",
+  "scripts": {
+    "start": "node apify_actor.js",
+    "test": "node apify_config.js",
+    "list-plz": "node -e \"console.log(require('./unique_plz.json').postal_codes.join('\\n'))\""
+  },
+  "dependencies": {
+    "apify": "^3.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
